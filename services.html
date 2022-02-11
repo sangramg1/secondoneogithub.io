@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"  content="width-device-width,initial scale=1">
+        <title>MY DESIGN</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    </head>
+    <body>
+        <section class="sub-header2">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+
+                <div class="nav-links"id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="course.html" >COURSE</a></li>
+                        <li><a href="register.html">REGISTER</a></li>
+                        <li><a href="contact_us.html">CONTACT_US</a></li>   
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showmenu()"></i>
+            </nav>
+            <h1 style="margin-top: 80px;">Our Services</h1>
+        </section>  
+        <section class="Services">
+            <div class="row1234">
+                <div class="about-col2">
+                    <h1>We Offers Two Services</h1>
+                    <p> here we are provided two Services for Our Students</p>
+                    <img src="online.jpg">
+                    <p>Here we Providing Online Services For student they can attend the courses online </p>
+                    <img src ="offline.jpg"><br><br>
+                    <p> Offline Service also we provide for student we have awesome computer lab  </p>
+                    <img src="classroom.jpg">
+
+                    </div>
+                    </div><br><br><br><br><br><br><br><br><br>
+                    </section>
+                    <section class="cta">
+                        <h1>Contact Us For More Information About Courses </h1>
+                        <a href="contact_us.html" class="hero-btn">CONTACT_US</a>
+                        </section>
+                    <section class="footer">
+                        <h4>About_Us</h4>
+                        <p>Contact Us For More Detailing</p>
+                        <div class="icons">
+                            <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                            <a href="https://twitter.com"> <i class="fa fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/"> <i class="fa fa-instagram"></i></a>
+                            <a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&hl=en-GB&flowName=GlifWebSignIn&flowEntry=ServiceLogin"> <i class="fa fa-envelope"></i></a>
+                            <a href="https://in.linkedin.com/"> <i class="fa fa-linkedin"></i></a>
+                        </div>
+                        <p>Made with <i class="fa fa-heart-o"></i> SG Design</p>
+                        </section> 
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showmenu()
+            {
+                navLinks.style.right="0";
+            }
+            function hidemenu()
+            {
+                navLinks.style.right="-200px";
+            }
+        </script>
+        
+    </body>

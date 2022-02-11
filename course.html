@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html> 
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport"  content="width-device-width,initial scale=1">
+        <title>MY DESIGN</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    </head>
+    <body>
+        <section class="sub-header1">
+            <nav>
+                <a href="index.html"><img src="logo.png"></a>
+
+                <div class="nav-links"id="navLinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="Home.html">HOME</a></li>
+                        <li><a href="services.html">SERVICES</a></li>
+                        <li><a href="course.html" >COURSE</a></li>
+                        <li><a href="register.html">REGISTER</a></li>
+                        <li><a href="contact_us.html">CONTACT_US</a></li>   
+                    </ul>
+                </div>
+                <i class="fa fa-bars"onclick="showmenu()"></i>
+            </nav>
+                <h1 style="margin-top: 80px;">Our Courses</h1>
+            </section>  
+            <section class="course">
+                <h1>Courses We Offers</h1>
+                <p> Here We Offer A Multiple Courses Of Design </p>
+                
+                    <div class="row11" id="row1">
+                        <div class="course-col"  >
+                            
+                            <img src="Htmllogo.png"  height=300px width="300px">
+                            <p> The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. </p>
+                            <a href="https://html.com/">Know More</a>
+                        </div>
+                    <div class="row11" id="row1">
+                        <div class="course-col">
+                            
+                            <img src="CSSlogo (1).png" height=300px width="300px">
+                            <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+                            <a href="https://www.javatpoint.com/css-tutorial">Know More</a>
+                        </div>
+                    </div>
+                    <div class="row11" id="row1"></div>
+                        <div class="course-col">
+                            <img src="bootstrap.png" height=300px width="300px">
+                            <p>Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components. </p>
+                            <a href="https://getbootstrap.com/">Know More</a>
+                        </div>
+                        <div class="row11" id="row1"></div>
+                        <div class="course-col">
+                            <img src="JS.png" height=300px width="300px">
+                            <p>JavaScript,often abbreviated JS, is a programming language that is one of the core technologies of the World Wide Web, alongside HTML and CSS ,Over 97% of websites use JavaScript on the client side for web page behavior,often incorporating third-party libraries.All major web browsers have a dedicated JavaScript engine to execute the code on users devices.</p>
+                            <a href="https://www.javatpoint.com/javascript-tutorial">Know More</a>
+                        </div>
+                        
+                    </div>
+            </section> 
+    
+            <section class="cta">
+                <h1>Contact Us For More Information About Courses </h1>
+                <a href="contact_us.html" class="hero-btn">CONTACT_US</a>
+                </section>
+        <section class="footer">
+            <h4>About_Us</h4>
+            <p>Contact Us For More Detailing</p>
+            <div class="icons">
+                <a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+                <a href="https://twitter.com"> <i class="fa fa-twitter"></i></a>
+                <a href="https://www.instagram.com/"> <i class="fa fa-instagram"></i></a>
+                <a href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F%26ogbl%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&hl=en-GB&flowName=GlifWebSignIn&flowEntry=ServiceLogin"> <i class="fa fa-envelope"></i></a>
+                <a href="https://in.linkedin.com/"> <i class="fa fa-linkedin"></i></a>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> SG Design</p>
+            </section> 
+            <script>
+                var navLinks = document.getElementById("navLinks");
+                function showmenu()
+                {
+                    navLinks.style.right="0";
+                }
+                function hidemenu()
+                {
+                    navLinks.style.right="-200px";
+                }
+            </script>
+    </body>
+    
